@@ -3950,3 +3950,15 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+/* Week 3 image fills the section height */
+#main .spotlights > section.week3 > .image {
+    align-self: stretch;
+    height: auto;
+    min-height: 100%;
+}
+
+#main .spotlights > section.week3 > .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
